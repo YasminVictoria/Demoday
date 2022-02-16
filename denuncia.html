@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="imagens/logob.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="carousel/carousel.css" rel="stylesheet">
+
+  <title>Todas por Uma</title>
+
+  <!-- Principal CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    @font-face {
+      font-family: 'bold';
+      src: url('fonts/open-sans.bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      font-size: 12px;
+      line-height: 0;
+      cursor: pointer;
+      color: #000;
+      text-align: -webkit-match-parent;
+      background-color: #fff;
+
+    }
+
+    .bg-black {
+      background-color: #000
+    }
+
+    #logo {
+      width: 60px;
+      height: auto;
+      border-radius: 4px;
+      float: right;
+
+
+    }
+
+    .navbar-brand {
+      padding: 6px 20px;
+      font-size: 20px;
+      margin: 0px
+    }
+
+    .navbar-nav {
+      width: 100%
+    }
+
+    .navbar-nav {
+      width: 100%
+    }
+
+    .nav-item {
+      padding: 0px 10px;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      color: #808080;
+      position: relative;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      display: inline-block;
+      background-color: transparent;
+      line-height: 50px;
+    }
+
+    .nav-link {
+      padding-bottom: 10px
+    }
+
+    .v-line {
+      background-color: gray;
+      width: 1px;
+      height: 15px
+    }
+
+    .navbar {
+      margin-bottom: 0px;
+      justify-content: left;
+    }
+
+    .jumbotron {
+      padding: 0px;
+      background-color: #ffffff;
+    }
+
+
+    .navbar-collapse.collapse.in {
+      display: block !important
+    }
+
+    .navbar {
+      padding: 0px;
+    }
+
+    @media (max-width: 576px) {
+      .nav-item {
+        width: 100%;
+        text-align: left
+      }
+
+      .v-line {
+        display: none
+      }
+    }
+
+    ul>li>a:hover,
+    .header_top #lang_sel_click>ul>li>a:hover,
+    .filter_holder ul li .active span,
+    .filter_holder ul li :hover span,
+    .q_social_icon_holder.normal_social:hover .simple_social,
+    .q_steps_holder .circle_small:hover span,
+    .q_steps_holder .circle_small:hover .step_title,
+    .social_share_holder:hover>a {
+      color: #180133 !important;
+    }
+
+    .navbar {
+      padding: 0px;
+    }
+
+    .login {
+      margin-left: 290px;
+      border-right: none;
+      background-color: #52307C;
+      text-align: center;
+      font-size: 14px;
+      border: 4px solid #52307C;
+      border-radius: 3px
+    }
+
+    .login:hover {
+      background-color: #52307C;
+      color: #B6A2DE;
+    }
+
+    /*Começo do Banner*/
+
+    /*Final do Banner*/
+
+    /*Começo do footer*/
+
+    .conteudo {
+      margin: 5% 10%;
+      text-align: center;
+      text-align: justify;
+    }
+
+    h1 {
+      color: #1b0133;
+      font-size: 25px;
+      margin: 0px 0px 10px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 5px 0px 12px;
+      font-family: Poppins;
+
+    }
+
+    .mini-box {
+      width: 100%;
+      padding: 10px;
+      background-color: #52307C;
+      margin: auto;
+    }
+
+    .mini-box img {
+      height: 100px;
+      margin: 0px 60px 0px;
+
+    }
+
+    .mini-box1 {
+      width: 100%;
+      padding: 30px;
+      background-color: #52307C;
+      margin: auto;
+    }
+
+    .mini-box1 h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 30px;
+      margin: auto;
+
+    }
+
+    h4 {
+      text-align: justify;
+      font-size: 17px;
+      margin: 0 100px 0px 15px;
+      margin-right: 110px;
+      font-family: Poppins;
+      color: #fff;
+
+    }
+
+    .botao {
+      background-color: #b6a2de;
+      text-align: center;
+      font-size: 14px;
+      border-radius: 10px;
+      width: 15%;
+      height: 10px;
+      padding: 20px;
+      margin: auto;
+      margin-bottom: 10px;
+      color: #fff;
+
+    }
+
+    .botao:hover {
+      background-color: #52307C;
+      color: #fff;
+    }
+
+    h5 {
+      text-align: center;
+      font-size: 10px;
+      margin-bottom: 30px;
+    }
+
+    .parallax {
+      width: auto;
+      background-color: #2e3141;
+      background-image: url("imagens/fotodenuncia.png");
+      background-size: 100%, cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed, fixed;
+      padding-top: 7%;
+      padding-bottom: 300px;
+      position: sticky;
+    }
+
+    .foto1 img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 300px;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+  </style>
+</head>
+
+<body>
+  <main role="main">
+    <!-- principal -->
+
+    <nav class="navbar navbar-expand-sm navbar-white bg-white py-0 px-0">
+      <a class="navbar-brand" href="#"><img id="logo" src="imagens/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="background-color: #180133;"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar nav">
+          <li class="nav-item active"> <a class="nav-link" href="index.html" style="coloR: #808080;">HOME</a></li><span
+            class="v-line"></span>
+          <li class="nav-item active"> <a class="nav-link" href="#" style="color: #808080;">QUEM SOMOS</a></li><span
+            class="v-line"></span>
+          <li class="nav-item"> <a class="nav-link" href="#" style="color: #808080; ">CADASTRO</a></li><span
+            class="v-line"></span>
+          <li class="nav-item"> <a class="nav-link" href="#" style="color: #808080;">DEPOIMENTOS</a></li><span
+            class="v-line"></span>
+          <li class="nav-item"> <a class="nav-link" href="denuncia.html" style="color: #808080;">DENÚNCIA</a></li><span
+            class="v-line"></span>
+          <li class="nav-item"> <a class="nav-link" href="#" style="color: #808080;">QUERO DOAR</a></li>
+          <li class="login"><a class="nav-link" href="#" style="color: #ffffff;">MINHA AREA </a></li>
+
+        </ul>
+    </nav>
+    </div>
+    </nav>
+    </div>
+
+    <!--aqui acaba o menu-->
+
+    <!--Começa o conteudo-->
+    <div class="mini-box1">
+      <h1><b>Não se cale, denuncie.</b></h1>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="conteudo">
+
+      <h1><b>O QUE A LEI ENTENDE COMO VIOLÊNCIA CONTRA A MULHER:</b></h1>
+      <h2> Qualquer ação (fazer) ou omissão (deixar de fazer) que cause morte, lesão, sofrimento físico (dor que não
+        deixe lesão aparente), sexual ou psicológico, bem como dano moral ou patrimonial contra a mulher, simplesmente
+        pelo fato de ser mulher, independentemente da orientação sexual da vítima.</h2>
+
+      <h1><b>MEIOS EM QUE OCORRE VIOLÊNCIA CONTRA A MULHER SEGUNDO A LEI:</b></h1>
+      <h2>Unidade doméstica, ou seja, pessoas que morem na mesma casa, mesmo sem vínculo familiar, inclusive quem reside
+        no mesmo lugar apenas esporadicamente, de vez em quando ou por determinado motivo.
+        Família, ou seja, pessoas que se consideram aparentadas, podendo ou não ter laços de sangue.
+        Relação íntima de afeto, isto é, namoro, noivado, casamento, ou qualquer outro tipo de relacionamento,
+        independentemente de morarem ou terem morado no mesmo local.
+      </h2>
+      <br>
+      <h1><b>FORMAS DE VIOLÊNCIA DOMÉSTICA:</b></h1>
+      <h2>Violência física, que é causar qualquer tipo de lesão, ferimento, fratura, machucado, dor física, ou dano à
+        saúde corporal da mulher. </h2>
+      <h2>Violência psicológica, qualquer conduta que cause dano emocional, psicológico e diminuição da autoestima da
+        mulher, ou que prejudique e perturbe o seu desenvolvimento, ou que procure impedir ou controlar suas ações,
+        comportamentos, crenças e decisões.</h2>
+      <h2>Violência sexual, qualquer ação que force a mulher a presenciar, manter ou participar de relação sexual não
+        desejada, por meio de intimidação, ameaça, chantagem ou uso de força bruta; qualquer ação que a obrigue a se
+        utilizar ou vender sua sexualidade; </h2>
+      <h2>Qualquer ação que a impeça de usar métodos contraceptivos (anticoncepcional, camisinha, etc.), que a obrigue a
+        casar, engravidar, abortar ou se prostituir, através de chantagem, suborno ou manipulação; </h2>
+      <h2>Qualquer ação que diminua ou retire os direitos sexuais e reprodutivos da mulher.</h2>
+      <h2>Violência patrimonial, é qualquer tipo de atitude que retenha, retire ou destruía parcial ou totalmente
+        objetos, instrumentos de trabalho, documentos pessoais, bens, valores, direitos ou recursos econômicos da
+        mulher, incluindo aqueles que têm como finalidade satisfazer suas necessidades básicas.</h2>
+      <h2>Violência moral, entendida como calúnia (acusar falsamente de um crime), injúria (degradar a reputação da
+        mulher), ou difamação (ofender a dignidade ou a honra de alguém, com xingamentos e palavras de baixo calão).
+      </h2><br>
+    </div>
+
+    <div class="foto1">
+      <img src="imagens/foto1.png" alt="f">
+    </div>
+
+    <div class="conteudo">
+      <h1><b>TIPOS DE MEDIDAS PROTETIVAS QUE PODEM SER CONCEDIDAS CONTRA O AGRESSOR:</b></h1>
+      <h2>I - encaminhar a vítima e seus dependentes à programa oficial ou comunitário de proteção ou de atendimento;
+      </h2>
+      <h2>II - determinar a recondução da vítima e a de seus dependentes ao respectivo domicílio, após afastamento do
+        agressor;</h2>
+      <h2>III - determinar o afastamento da vítima do lar, sem prejuízo dos direitos relativos a bens, guarda dos filhos
+        e alimentos;</h2>
+      <h2>IV - determinar a separação de corpos.</h2>
+      <h2>V - determinar a matrícula dos dependentes da ofendida em instituição de educação básica mais próxima do seu
+        domicílio, ou a transferência deles para essa instituição, independentemente da existência de vaga.</h2>
+    </div>
+
+    <div class="botao">
+      <a href="https://www.delegaciaeletronica.policiacivil.sp.gov.br/ssp-de-cidadao/pages/comunicar-ocorrencia/violencia-domestica/triagem-de-vitima"
+        style="color: #fff;"><b>BOLETIM</b></a></p>
+    </div>
+    <h5>CLIQUE NO BOTÃO PARA FAZER UM BOLETIM DE OCORRÊNCIA ONLINE</h5>
+
+    <div class="mini-box">
+      <table>
+        <tr>
+          <td><img src='imagens/simbolo.png' /></td>
+
+          <td>
+            <h4>A Central de Atendimento à Mulher é um serviço criado para o combate à violência contra a mulher e
+              oferece três tipos de atendimento: registros de denúncias, orientações para vítimas de violência e
+              informações sobre leis e campanhas, ligue 180.</h4>
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="vc_empty_space" style="height: 80px"><span class="vc_empty_space_inner">
+
+      </span></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!--começo do footer-->
+
+    <!-- Footer -->
+
+
+
+  </main>
+</body>
+
+</html>
